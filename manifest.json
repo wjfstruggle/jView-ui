@@ -1,11 +1,12 @@
 {
-    "name" : "jView-ui",
+    "name" : "uView",
     "appid" : "",
     "description" : "多平台快速开发的UI框架",
-    "versionName" : "1.0.0",
+    "versionName" : "1.8.4",
     "versionCode" : "100",
     "transformPx" : false,
     "app-plus" : {
+        // APP-VUE分包，可提APP升启动速度，2.7.12开始支持，兼容微信小程序分包方案，默认关闭
         "optimization" : {
             "subPackages" : true
         },
@@ -133,6 +134,6 @@
                 "enable" : false
             }
         },
-        "title" : "jView UI"
+        "title" : "uView UI"
     }
 }
