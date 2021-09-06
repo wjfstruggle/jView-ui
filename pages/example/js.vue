@@ -26,7 +26,7 @@
 		computed: {
 			getIcon() {
 				return path => {
-					return 'https://cdn.uviewui.com/uview/example/' + path + '.png';
+					return 'https://cdn.jViewui.com/jView/example/' + path + '.png';
 				}
 			},
 			desc() {

@@ -63,8 +63,8 @@
 						customIcon: false,
 					},
 					{
-						iconPath: "/static/uview/example/min_button.png",
-						selectedIconPath: "/static/uview/example/min_button_select.png",
+						iconPath: "/static/jView/example/min_button.png",
+						selectedIconPath: "/static/jView/example/min_button_select.png",
 						text: '发布',
 						midButton: true,
 						customIcon: false,

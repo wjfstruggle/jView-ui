@@ -1,7 +1,7 @@
 <template>
 	<view class="nav-wrap">
 		<view class="nav-title">
-			<image class="logo" src="https://cdn.uviewui.com/uview/common/logo.png" mode="widthFix"></image>
+			<image class="logo" src="https://cdn.jViewui.com/jView/common/logo.png" mode="widthFix"></image>
 			<view class="nav-info">
 				<view class="nav-title__text">
 					{{$t('common.title')}}

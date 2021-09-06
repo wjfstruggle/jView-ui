@@ -16,6 +16,6 @@ export default {
 	},
 	common: {
 		intro: '多平台快速开发的UI框架',
-		title: 'uView UI',
+		title: 'jView UI',
 	},
 }

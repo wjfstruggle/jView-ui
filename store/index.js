@@ -38,21 +38,21 @@ const store = new Vuex.Store({
 		vuex_demo: '绛紫',
 		// 自定义tabbar数据
 		vuex_tabbar: [{
-				iconPath: "/static/uview/example/component.png",
-				selectedIconPath: "/static/uview/example/component_select.png",
+				iconPath: "/static/jView/example/component.png",
+				selectedIconPath: "/static/jView/example/component_select.png",
 				text: '组件',
 				pagePath: '/pages/example/components'
 			},
 			{
-				iconPath: "/static/uview/example/js.png",
-				selectedIconPath: "/static/uview/example/js_select.png",
+				iconPath: "/static/jView/example/js.png",
+				selectedIconPath: "/static/jView/example/js_select.png",
 				text: '工具',
 				midButton: true,
 				pagePath: '/pages/example/js'
 			},
 			{
-				iconPath: "/static/uview/example/template.png",
-				selectedIconPath: "/static/uview/example/template_select.png",
+				iconPath: "/static/jView/example/template.png",
+				selectedIconPath: "/static/jView/example/template_select.png",
 				text: '模板',
 				pagePath: '/pages/example/template'
 			}

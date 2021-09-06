@@ -28,7 +28,7 @@
 		methods: {
 			vuexChange(index) {
 				let val = index == 0 ? '墨绿' : index == 1 ? '黛蓝' : '浅紫';
-				// 通过this.$u.vuex使用，方法见uView文档
+				// 通过this.$u.vuex使用，方法见jView文档
 				this.$u.vuex('vuex_demo', val);
 			}
 		}

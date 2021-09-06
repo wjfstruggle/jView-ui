@@ -15,10 +15,10 @@ const install = (Vue, vm) => {
 	Vue.prototype.$u.http.interceptor.request = (config) => {
 		config.header.Token = 'xxxxxx';
 		
-		// 方式一，存放在vuex的token，假设使用了uView封装的vuex方式，见：https://uviewui.com/components/globalVariable.html
+		// 方式一，存放在vuex的token，假设使用了jView封装的vuex方式，见：https://jViewui.com/components/globalVariable.html
 		// config.header.token = vm.token;
 		
-		// 方式二，如果没有使用uView封装的vuex方法，那么需要使用$store.state获取
+		// 方式二，如果没有使用jView封装的vuex方法，那么需要使用$store.state获取
 		// config.header.token = vm.$store.state.token;
 		
 		// 方式三，如果token放在了globalData，通过getApp().globalData获取

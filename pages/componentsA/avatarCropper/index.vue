@@ -30,7 +30,7 @@
 	export default {
 		data() {
 			return {
-				avatar: 'https://cdn.uviewui.com/uview/common/logo.png',
+				avatar: 'https://cdn.jViewui.com/jView/common/logo.png',
 			}
 		},
 		created() {
@@ -50,7 +50,7 @@
 		methods: {
 			chooseAvatar() {
 				this.$u.route({
-					url: '/uview-ui/components/u-avatar-cropper/u-avatar-cropper',
+					url: '/jView-ui/components/u-avatar-cropper/u-avatar-cropper',
 					params: {
 						// 输出图片宽度，高等于宽，单位px
 						destWidth: 300,

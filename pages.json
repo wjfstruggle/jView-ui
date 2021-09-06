@@ -1,6 +1,6 @@
 {
 	"easycom": {
-		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		"^u-(.*)": "@/jView-ui/components/u-$1/u-$1.vue"
 	},
 	// "condition": { //模式配置，仅开发期间生效
 	// 	"current": 0, //当前激活的模式(list 的索引项)
@@ -20,7 +20,7 @@
 		},
 		// avatarCropper-头像裁剪
 		{
-			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"path": "jView-ui/components/u-avatar-cropper/u-avatar-cropper",
 			"style": {
 				"navigationBarTitleText": "头像裁剪",
 				"navigationBarBackgroundColor": "#000000"
@@ -42,7 +42,7 @@
 		},
 		// fullScreen-压窗屏
 		{
-			"path": "uview-ui/components/u-full-screen/u-full-screen",
+			"path": "jView-ui/components/u-full-screen/u-full-screen",
 			"style": {
 				"navigationStyle": "custom",
 				"app-plus": {
@@ -835,7 +835,7 @@
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uView",
+		"navigationBarTitleText": "jView",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
 	},
@@ -846,20 +846,20 @@
 		"borderStyle": "black",
 		"list": [{
 				"pagePath": "pages/example/components",
-				"iconPath": "static/uview/example/component.png",
-				"selectedIconPath": "static/uview/example/component_select.png",
+				"iconPath": "static/jView/example/component.png",
+				"selectedIconPath": "static/jView/example/component_select.png",
 				"text": "组件"
 			},
 			{
 				"pagePath": "pages/example/js",
-				"iconPath": "static/uview/example/js.png",
-				"selectedIconPath": "static/uview/example/js_select.png",
+				"iconPath": "static/jView/example/js.png",
+				"selectedIconPath": "static/jView/example/js_select.png",
 				"text": "工具"
 			},
 			{
 				"pagePath": "pages/example/template",
-				"iconPath": "static/uview/example/template.png",
-				"selectedIconPath": "static/uview/example/template_select.png",
+				"iconPath": "static/jView/example/template.png",
+				"selectedIconPath": "static/jView/example/template_select.png",
 				"text": "模板"
 			}
 		]

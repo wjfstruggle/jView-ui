@@ -11,7 +11,7 @@
 				>
 					<!-- #ifndef MP-WEIXIN || MP-TOUTIAO -->
 					<view class="warp" style="margin: 30rpx;" v-if="contentSlot">
-						<image class="logo" src="https://uviewui.com/common/logo.png" style="width: 220rpx;" mode="widthFix"></image>
+						<image class="logo" src="https://jViewui.com/common/logo.png" style="width: 220rpx;" mode="widthFix"></image>
 					</view>
 					<!-- #endif -->
 				</u-modal>

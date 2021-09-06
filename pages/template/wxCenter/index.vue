@@ -12,8 +12,8 @@
 				<u-avatar :src="pic" size="140"></u-avatar>
 			</view>
 			<view class="u-flex-1">
-				<view class="u-font-18 u-p-b-20">uView ui</view>
-				<view class="u-font-14 u-tips-color">微信号:helang_uView</view>
+				<view class="u-font-18 u-p-b-20">jView ui</view>
+				<view class="u-font-14 u-tips-color">微信号:helang_jView</view>
 			</view>
 			<view class="u-m-l-10 u-p-10">
 				<u-icon name="scan" color="#969799" size="28"></u-icon>
@@ -50,7 +50,7 @@
 	export default {
 		data() {
 			return {
-				pic:'https://uviewui.com/common/logo.png',
+				pic:'https://jViewui.com/common/logo.png',
 				show:true
 			}
 		},

@@ -38,7 +38,7 @@
 export default {
 	data() {
 		return {
-			src: 'https://cdn.uviewui.com/uview/example/fade.jpg',
+			src: 'https://cdn.jViewui.com/jView/example/fade.jpg',
 			width: '200',
 			height: '200',
 			loadingSlot: false,

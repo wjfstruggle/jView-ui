@@ -1,6 +1,6 @@
 <script>
 	export default {
-		// 此处globalData为了演示其作用，不是uView框架的一部分
+		// 此处globalData为了演示其作用，不是jView框架的一部分
 		globalData: {
 			username: '白居易'
 		},
@@ -18,6 +18,6 @@
 </script>
 
 <style lang="scss">
-	@import "uview-ui/index.scss";
+	@import "jView-ui/index.scss";
 	@import "common/demo.scss";
 </style>

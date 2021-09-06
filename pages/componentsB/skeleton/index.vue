@@ -50,8 +50,8 @@
 		data() {
 			return {
 				userInfo: {
-					avatarUrl: 'https://cdn.uviewui.com/uview/common/logo.png',
-					nickName: 'uView'
+					avatarUrl: 'https://cdn.jViewui.com/jView/common/logo.png',
+					nickName: 'jView'
 				},
 				lists: [
 					'君不见，黄河之水天上来，奔流到海不复回。君不见，高堂明镜悲白发，朝如青丝暮成雪。',

@@ -16,6 +16,6 @@ export default {
 	},
 	common: {
 		intro: 'UI framework for rapid development of multiple platforms',
-		title: 'uView UI',
+		title: 'jView UI',
 	},
 }

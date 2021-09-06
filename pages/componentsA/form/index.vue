@@ -50,7 +50,7 @@
 		<view class="agreement">
 			<u-checkbox v-model="check" @change="checkboxChange"></u-checkbox>
 			<view class="agreement-text">
-				勾选代表同意uView的版权协议
+				勾选代表同意jView的版权协议
 			</view>
 		</view>
 		<u-button @click="submit">提交</u-button>
@@ -133,7 +133,7 @@ export default {
 					{
 						// 此为同步验证，可以直接返回true或者false，如果是异步验证，稍微不同，见下方说明
 						validator: (rule, value, callback) => {
-							// 调用uView自带的js验证规则，详见：https://www.uviewui.com/js/test.html
+							// 调用jView自带的js验证规则，详见：https://www.jViewui.com/js/test.html
 							return this.$u.test.chinese(value);
 						},
 						message: '姓名必须为中文',
@@ -175,7 +175,7 @@ export default {
 						message: '简介不能少于5个字',
 						trigger: 'change' ,
 					},
-					// 正则校验示例，此处用正则校验是否中文，此处仅为示例，因为uView有this.$u.test.chinese可以判断是否中文
+					// 正则校验示例，此处用正则校验是否中文，此处仅为示例，因为jView有this.$u.test.chinese可以判断是否中文
 					{
 						pattern: /^[\u4e00-\u9fa5]+$/gi,
 						message: '简介只能为中文',
@@ -219,7 +219,7 @@ export default {
 					},
 					{
 						validator: (rule, value, callback) => {
-							// 调用uView自带的js验证规则，详见：https://www.uviewui.com/js/test.html
+							// 调用jView自带的js验证规则，详见：https://www.jViewui.com/js/test.html
 							return this.$u.test.mobile(value);
 						},
 						message: '手机号码不正确',

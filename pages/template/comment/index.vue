@@ -65,14 +65,14 @@ export default {
 					name: '叶轻眉',
 					date: '12-25 18:58',
 					contentText: '我不信伊朗会没有后续反应，美国肯定会为今天的事情付出代价的',
-					url: 'https://cdn.uviewui.com/uview/template/SmilingDog.jpg',
+					url: 'https://cdn.jViewui.com/jView/template/SmilingDog.jpg',
 					allReply: 12,
 					likeNum: 33,
 					isLike: false,
 					replyList: [
 						{
-							name: 'uview',
-							contentStr: 'uview是基于uniapp的一个UI框架，代码优美简洁，宇宙超级无敌彩虹旋转好用，用它！'
+							name: 'jView',
+							contentStr: 'jView是基于uniapp的一个UI框架，代码优美简洁，宇宙超级无敌彩虹旋转好用，用它！'
 						},
 						{
 							name: '粘粘',
@@ -88,7 +88,7 @@ export default {
 					allReply: 0,
 					likeNum: 11,
 					isLike: false,
-					url: 'https://cdn.uviewui.com/uview/template/niannian.jpg',
+					url: 'https://cdn.jViewui.com/jView/template/niannian.jpg',
 				},
 				{
 					id: 3,
@@ -102,8 +102,8 @@ export default {
 					url: '../../../static/logo.png',
 					replyList: [
 						{
-							name: 'uview',
-							contentStr: 'uview是基于uniapp的一个UI框架，代码优美简洁，宇宙超级无敌彩虹旋转好用，用它！'
+							name: 'jView',
+							contentStr: 'jView是基于uniapp的一个UI框架，代码优美简洁，宇宙超级无敌彩虹旋转好用，用它！'
 						},
 						{
 							name: '豆包',
@@ -116,7 +116,7 @@ export default {
 					name: '叶轻眉3',
 					date: '06-20 13:58',
 					contentText: '我不信伊朗会没有后续反应，美国肯定会为今天的事情付出代价的',
-					url: 'https://cdn.uviewui.com/uview/template/SmilingDog.jpg',
+					url: 'https://cdn.jViewui.com/jView/template/SmilingDog.jpg',
 					allReply: 0,
 					likeNum: 150,
 					isLike: false

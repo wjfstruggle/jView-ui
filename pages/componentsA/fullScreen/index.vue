@@ -37,7 +37,7 @@
 			openModal(index) {
 				// 可以传递参数
 				if(index == 0) {
-					this.$u.route("/uview-ui/components/u-full-screen/u-full-screen?id=1");
+					this.$u.route("/jView-ui/components/u-full-screen/u-full-screen?id=1");
 				}
 			}
 		}
